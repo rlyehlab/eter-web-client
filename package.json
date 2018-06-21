@@ -1,0 +1,51 @@
+{
+  "name": "eter-web-client",
+  "version": "0.1.0",
+  "description": "Eter web client built with React and CoreUI",
+  "license": "MIT",
+  "author": {
+    "name": "Leonardo Maddio",
+    "github": "https://github.com/lmaddio"
+  },
+  "homepage": "https://etermonitor.net/data",
+  "dependencies": {
+    "@coreui/coreui": "^2.0.2",
+    "@coreui/coreui-plugin-chartjs-custom-tooltips": "^1.2.0",
+    "@coreui/icons": "^0.3.0",
+    "@coreui/react": "^2.0.1",
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/react-fontawesome": "^0.0.20",
+    "apollo-client-preset": "^1.0.8",
+    "bootstrap": "^4.1.1",
+    "chart.js": "^2.7.2",
+    "classnames": "^2.2.6",
+    "core-js": "^2.5.7",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "i": "^0.3.6",
+    "jquery": "^3.3.1",
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-apollo": "^2.1.4",
+    "react-chartjs-2": "^2.7.2",
+    "react-dom": "^16.4.0",
+    "react-perfect-scrollbar": "^1.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^6.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rlyehlab/eter-web-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rlyehlab/eter-web-client/issues"
+  }
+}
