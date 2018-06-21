@@ -170,7 +170,6 @@ class Dashboard extends Component {
                 data={this._formatPMData(allMeasures)} 
                 total={allSensors.edges.filter(s=>s.node.name === "PM5003").reduce((o,a)=>(o.node ? o.node.measuresBySensorId.totalCount : o) + a.node.measuresBySensorId.totalCount)}
                 title="Cantidad de mediciones (PM)"
-                subtitle="Niveles de PM"
                 height={100} />
               : null
             }            
